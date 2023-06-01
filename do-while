@@ -1,0 +1,20 @@
+//for, while
+//once sart, sonra islem
+//do-while
+//once islem sonra sart
+//sarta kadar en az 1 kere çalışır...
+
+//foreach: en farklı olan dongu
+//Koleksiyonlar uzerinde calisir...
+//Readonly dir...
+
+//break:donguden çıkmak için kullanılır...
+//gordugu anda donguyu bitirir...
+
+do {
+    //
+    //
+    break;
+    Console.WriteLine("islem");
+
+}while(true);
