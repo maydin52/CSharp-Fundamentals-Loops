@@ -1,4 +1,10 @@
 //for dongusu...
+
+Ne kadar calisacaðý belli olan olan donguler
+   1) Baslangic
+   2) Nerede bitecek
+   3) Yaklasma +,-
+
 //Soru ? ekrana 1 den 10 kadar olan sayıları yazınız?
 
 //Console.WriteLine(1);
