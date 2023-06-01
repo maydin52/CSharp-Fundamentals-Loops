@@ -1,0 +1,14 @@
+//Soru:Kullanıcı negatif sayi girmedigi muddetce girilen sayıları toplayan kodu yazınız?
+int toplam = 0;
+
+int sayi = 0;
+
+while (sayi >= 0)
+{
+    Console.WriteLine("sayi giriniz");
+    sayi = int.Parse(Console.ReadLine());
+    if(sayi>0)
+    toplam += sayi;
+}
+
+Console.WriteLine("Toplam=" + toplam);
