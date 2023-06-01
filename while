@@ -1,3 +1,5 @@
+Ne kadar calisacaðý belli olmayan olan donguler
+
 //Soru:Kullanıcı negatif sayi girmedigi muddetce girilen sayıları toplayan kodu yazınız?
 int toplam = 0;
 
