@@ -1,5 +1,7 @@
 //for dongusu...
 
+
+
 Ne kadar calisacaðý belli olan olan donguler
    1) Baslangic
    2) Nerede bitecek
@@ -26,6 +28,43 @@ for (int i = 10; i < 50; i+=2)
 {
     Console.WriteLine(i);
 }
+
+
+//Donguler
+
+//for, while
+//once sart, sonra islem
+//do-while
+//once islem sonra sart
+//sarta kadar en az 1 kere çalışır...
+
+//foreach: en farklı olan dongu
+//Koleksiyonlar uzerinde calisir...
+//Readonly dir...
+
+//break:donguden çıkmak için kullanılır...
+//gordugu anda donguyu bitirir...
+
+do {
+    //
+    //
+    break;
+    Console.WriteLine("islem");
+
+}while(true);
+
+//break, continue kullanımı...
+
+for (int i = 0; i < 10; i++)
+{
+    if (i == 5 || i==6) continue;
+    Console.WriteLine(i);
+}
+
+//continue:sadece o adımı iptal eder...
+
+//goto: Moduler programlamaya uygun bir kullanım değildir...
+//Assembly
 
 
 
