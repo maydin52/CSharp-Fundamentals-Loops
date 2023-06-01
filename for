@@ -67,6 +67,24 @@ for (int i = 0; i < 10; i++)
 //Assembly
 
 
+//Döngüler ile özel durumlar...
+//for: Genellikle ne kadar çalışacağı belli olan dongulerde kullanılır...
+
+//for (; ; )
+//{
+//    Console.WriteLine("merhaba");
+//}
+
+
+//while dongusu NSA ne kadar calisacağı belli olmayan dongulerde kullanılır...Bura ise ne kadar calisacağı belli olan dongu şeklinde kullanılmıştır... 
+int sayac = 0;
+while (sayac < 5)
+{ 
+   Console.WriteLine(sayac);
+    sayac++;
+}
+
+
 
 //Soru : Kullanıcı tarafından girilen 5 tam sayının toplamını alan kodu yazınız?
 
