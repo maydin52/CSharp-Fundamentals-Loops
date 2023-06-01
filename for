@@ -1,7 +1,5 @@
 //for dongusu...
 
-
-
 Ne kadar calisacaðý belli olan olan donguler
    1) Baslangic
    2) Nerede bitecek
@@ -29,8 +27,7 @@ for (int i = 10; i < 50; i+=2)
     Console.WriteLine(i);
 }
 
-
-//Donguler
+--------------------------------
 
 //for, while
 //once sart, sonra islem
@@ -66,6 +63,7 @@ for (int i = 0; i < 10; i++)
 //goto: Moduler programlamaya uygun bir kullanım değildir...
 //Assembly
 
+----------------------------------------------------------------
 
 //Döngüler ile özel durumlar...
 //for: Genellikle ne kadar çalışacağı belli olan dongulerde kullanılır...
@@ -84,16 +82,5 @@ while (sayac < 5)
     sayac++;
 }
 
+---------------------------------------------------------------------
 
-
-//Soru : Kullanıcı tarafından girilen 5 tam sayının toplamını alan kodu yazınız?
-
-int toplam = 0;
-
-for (int i = 0; i < 5; i++)
-{
-    Console.Write($"{i + 1}. sayiyi giriniz");
-    int sayi = int.Parse(Console.ReadLine());
-    toplam += sayi;
-}
-Console.WriteLine("Sayıların toplamı={0}",toplam);
