@@ -27,6 +27,11 @@ for (int i = 10; i < 50; i+=2)
     Console.WriteLine(i);
 }
 
+for (int i = 0; i <= 100; i++)
+{
+  Console.WriteLine($" sayı: {i}");
+}
+
 --------------------------------
 
 //for, while
